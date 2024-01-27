@@ -1,1 +1,46 @@
-./go_cli_demo
+# Please do not add personal files
+
+# Logs
+*.log
+
+# Hidden
+.*
+
+# TODO
+TODO.*
+
+# Notes
+*.notes
+
+# Tests
+test/repos/repo
+coverage.txt
+
+# Binaries
+go_cli_demo
+go_cli_demo.exe
+
+# Exceptions
+!.gitignore
+!.goreleaser.yml
+!.golangci.yml
+!.circleci/
+!.github/
+!.vscode/
+!.devcontainer/
+
+# these are for our integration tests
+!.git_keep
+!.gitmodules_keep
+
+test/git_server/data
+
+test/_results/**
+
+oryxBuildBinary
+__debug_bin
+
+.worktrees
+demo/output/*
+
+coverage.out
